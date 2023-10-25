@@ -1,5 +1,6 @@
 using APIProductos.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http.Headers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,3 +29,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
